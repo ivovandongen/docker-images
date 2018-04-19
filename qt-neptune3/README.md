@@ -15,6 +15,12 @@ from  http://frungy.org/docker/using-ccache-with-docker
 - `docker run -e CCACHE_DIR=/ccache --volumes-from ccache -e DISPLAY=$IP:0 -v /tmp/.X11-unix:/tmp/.X11-unix -it qt-neptune3`
 - `cd install/neptune3-ui/neptune3 && ./neptune3-ui --start-session-dbus -r`
 
+## Using Vagrant
+
+```
+vagrant up
+```
+
 ## Convert to virtualbox image
 
 ```
